@@ -148,4 +148,4 @@ echo "wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -
 echo "yum clean all" >> /home/$USERNAME/Desktop/rebuild_virtualbox.sh
 cd /home/$USERNAME/Desktop/
 chmod +x rebuild_virtualbox.sh
-reboot
+reboot NOW!!
