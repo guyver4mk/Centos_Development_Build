@@ -16,23 +16,13 @@ This install script includes the installation of the following applications, rep
 	 * Ruby
 	 * Ruby Gems
 	 * Capistrano
-	 * Java JDK 7
 	 * Java JDK 8
-	 * Java JRE 8
 	 * SQL Developer
 	 * Mysql Workbench
 	 * Vagrant
 	 * Sublime Text 3 (Build 3062)
 	 * GIT
-	 * Android ADT Bundle
-		- Eclipse
-		- Android SDK
-	 * APK Multi Tool
-	 * JD-GUI (Java Decompiler)
-	 * Dex2Jar (.dex file converter to .jar)
 	 * Google Chrome
-	 * VirtualBox
-	 * Oracle public-yum-ol6 Repository
 	 
 	This script also includes a .bashrc file with some useful Command Line Shortcuts  
 
@@ -41,7 +31,9 @@ Centos Development Installation
 --------------------------------
 
 To Install, simply run the below command from the terminal;
+
 	chmod +x centos_post_install.sh
+	
 	sudo ./centos_post_install.sh
 
 This script needs to be run as Root, or with the sudo prefix.
@@ -73,9 +65,3 @@ Appendix
  * <a href="http://www.vagrantup.com/">Vagrant</a>
  * <a href="http://www.sublimetext.com/">Sublime Text</a>
  * <a href="http://git-scm.com/">GIT</a>
- * <a href="http://developer.android.com/sdk/index.html?hl=sk">Android SDK</a>
- * <a href="http://www.eclipse.org/">Eclipse</a>
- * <a href="https://github.com/APK-Multi-Tool/APK-Multi-Tool-Linux">APK Multi Tool</a>
- * <a href="https://code.google.com/p/dex2jar/downloads/list">Dex2Jar</a>
- * <a href="http://jd.benow.ca/">JD-GUI</a>
- * <a href="https://www.virtualbox.org/">VirtualBox</a>
